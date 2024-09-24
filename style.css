@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+#nav h2{
+    font-size: 30px;
+
+}
+
+#nav i{
+    font-size: 30px;
+    cursor: pointer;
+    top: 5%;
+    right: 10%;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    background-color: #ffffff58;
+    position: absolute;
+    background-color: green;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(10px);
+    padding: 150px 100px;
+    right: -40%;
+}
+
+#full h4{
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 20px;
+    font-weight: 650;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+
+}
